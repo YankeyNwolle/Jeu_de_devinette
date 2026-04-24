@@ -28,11 +28,11 @@ public class Main {
                 nombre = sc.nextInt();
 
                 if (nombre > nombreAleatoire) {
-                    System.out.println("Le nombre est plus grand que le nombre généré");
+                    System.out.println("Trop pétit!");
                     essaie++;
                     essaie_max--;
                 } else if (nombre < nombreAleatoire) {
-                    System.out.println("Le nombre est plus petit que le nombre généré");
+                    System.out.println("Trop Grand!");
                     essaie++;
                     essaie_max--;
                 } else {
